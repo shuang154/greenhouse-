@@ -1,0 +1,15 @@
+# 忽略 node_modules 和 node_modules_old 文件夹
+node_modules/
+node_modules_old/
+
+# 忽略系统生成的文件
+.updated
+.lock
+
+# 忽略特定架构相关的文件夹（如果不需要）
+bin/
+lib/
+lib64/
+sbin/
+
+# 如果不需要上传某些特定文件，可以继续添加
